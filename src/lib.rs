@@ -2,6 +2,10 @@
 // The key is how to define tree nodes.
 
 mod parse_tree;
+mod pre_order_traversal;
+mod post_order_traversal;
+mod in_order_traversal;
+mod level_order_traversal;
 
 use std::cmp::{max, Ordering::*};
 use std::fmt::{Debug, Display};
