@@ -6,6 +6,8 @@ mod pre_order_traversal;
 mod post_order_traversal;
 mod in_order_traversal;
 mod level_order_traversal;
+mod binary_heap;
+mod binary_search_tree;
 
 use std::cmp::{max, Ordering::*};
 use std::fmt::{Debug, Display};
